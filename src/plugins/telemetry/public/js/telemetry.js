@@ -10,7 +10,7 @@
     this.textcolor = 0;
     // Add required UI elements
     $('#rov_status_panel').append('<div id="telemetry" class="controller well well-small" >\t\t    <ul>\t\t       <li id="TelemetryList">\t\t       </li>\t\t    </ul>\t\t</div>');
-    $('#keyboardInstructions').append('<p><i>h</i> to cycle text color of telemetry</p>');
+    $('#keyboardInstructions').append('<p><i>h</i> 替换遥控字体颜色</p>');
     var self = this;
     setInterval(function () {
       self.displayTelemetry();

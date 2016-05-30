@@ -83,7 +83,7 @@
     // add required UI elements
     $('#buttonPanel').append('<span id="blackboxstatus" class="false pull-right"></span>');
     $('#buttonPanel').append('<button id="exportButton" class="btn pull-right disabled">Download Data</button><a id="exportLink" download="data.json"></a>');
-    $('#keyboardInstructions').append('<p><i>r</i> to toggle recording of telemetry</p>');
+    $('#keyboardInstructions').append('<p><i>r</i> 开关遥测</p>');
     $('#exportButton').click(exportData);
     this.cockpit.socket.on('navdata', function (data) {
       if (!jQuery.isEmptyObject(data)) {

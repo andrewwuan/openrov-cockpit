@@ -52,11 +52,11 @@
     });
 
     $('#keyboardInstructions')
-      .append('<p>press <i>i</i> to toggle lights</p>')
-      .append('<p>press <i>[</i> to enable ESCs</p>')
-      .append('<p>press <i>]</i> to disable ESCs</p>')
-      .append('<p>press <i>m</i> to toggle heading hold (BETA)</p>')
-      .append('<p>press <i>n</i> to toggle depth hold (BETA)</p>');
+      .append('<p><i>i</i> 开关电筒</p>')
+      .append('<p><i>[</i> 开启马达控制</p>')
+      .append('<p><i>]</i> 关闭马达控制</p>')
+      .append('<p><i>m</i> 开关朝向控制</p>')
+      .append('<p><i>n</i> 开关深度控制</p>');
 
     setInterval(function () {
       rov.sendPilotingData();

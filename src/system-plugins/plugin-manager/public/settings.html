@@ -2,7 +2,7 @@
     <div class="accordion-group">
         <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#plugin-settings" href="#collapsePluginManager">
-                Plugins to enable/disable
+                激活/停止插件
             </a>
         </div>
         <div id="collapsePluginManager" class="accordion-body collapse">
@@ -11,8 +11,8 @@
                     <li>
                         <div>
                             <span data-bind="text: viewName">&nbsp;</span>
-                            <button type="button" class="btn btn-xs btn-default" data-bind="css: {disabled: isEnabled(), 'btn-primary': !isEnabled()}, click: $parent.enablePlugin, enabled: !isEnabled()">Enable</button>
-                            <button type="button" class="btn btn-xs btn-default" data-bind="css: {disabled: !isEnabled(), 'btn-primary': isEnabled()}, click: $parent.disablePlugin, enabled: isEnabled()">Disable</button>
+                            <button type="button" class="btn btn-xs btn-default" data-bind="css: {disabled: isEnabled(), 'btn-primary': !isEnabled()}, click: $parent.enablePlugin, enabled: !isEnabled()">激活</button>
+                            <button type="button" class="btn btn-xs btn-default" data-bind="css: {disabled: !isEnabled(), 'btn-primary': isEnabled()}, click: $parent.disablePlugin, enabled: isEnabled()">停止</button>
                         </div>
                     </li>
                 </ul>

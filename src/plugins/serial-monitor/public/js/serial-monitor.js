@@ -8,7 +8,7 @@
     this.cockpit = cockpit;
     // Add required UI elements
     $('#rov_status_panel').append('<div id="serialmonitor" style="display: none;" class="controller well well-small" >\t\t    <textarea id="SerialMonitorList" style="width: 100%; height: 400px;">\t\t    </textarea>\t\t</div>');
-    $('#keyboardInstructions').append('<p><i>u</i> to toggle raw serial-monitor</p>');
+    $('#keyboardInstructions').append('<p><i>u</i> 串行端口监控</p>');
     var self = this;
 
     // Toggle serial monitor

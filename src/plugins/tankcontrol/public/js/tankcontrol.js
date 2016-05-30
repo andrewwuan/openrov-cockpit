@@ -22,7 +22,7 @@
     };
 
     // Add required UI elements
-    $('#keyboardInstructions').append('<p><i>t</i> to toggle tank control</p>');
+    $('#keyboardInstructions').append('<p><i>t</i> Tank控制模式</p>');
   };
   TankControl.prototype.listen = function listen() {
     var rov = this;

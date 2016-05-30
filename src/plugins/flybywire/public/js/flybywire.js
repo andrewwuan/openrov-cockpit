@@ -18,7 +18,7 @@
     this.maxDegreeOfHeadingChange = 5;
     this.maxDepthChange = 0.1;
     // Add required UI elements
-    $('#keyboardInstructions').append('<p><i>g</i> to toggle flybywire</p>');
+    $('#keyboardInstructions').append('<p><i>g</i> 开关IMU</p>');
   };
   FlyByWire.prototype.listen = function listen() {
     var rov = this;

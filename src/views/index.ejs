@@ -58,14 +58,14 @@
 
       <div class="navbar navbar-inverse navbar-fixed-top nav-collapse">
       <div class="navbar-inner">
-        <a class="brand" href="#"><img src="themes/OpenROV/img/openrov.png" class="logo"/><span class="navbar-titel">Cockpit</span></a>
+        <a class="brand" href="#"><span class="navbar-titel">PI UNDERWATER</span></a>
         <ul class="nav" id="navtoolbar">
           <li><a href="#"><img id="keyboardpopover" src="themes/OpenROV/img/keyboard.png" data-trigger="hover" data-placement="bottom" rel='popover' title="keyboard commands" html="true" /></a></li>
           <li><a href="#" id="servoTilt"></a></li>
         </ul>
         <ul id="menuitems" class="nav pull-right">
-          <li><a href="#" id="show-settings">Settings</a></li>
-          <li><a href="#" id="show-diagnostic">Diagnostic</a></li>
+          <li><a href="#" id="show-settings">设置</a></li>
+          <li><a href="#" id="show-diagnostic">诊断</a></li>
         </ul>
       </div>
     </div>
@@ -79,9 +79,9 @@
                 <canvas id='video-canvas'/>
               </div>
             </div>
-            <div id="rov_status_panel" class="span3 pull-right visible-desktop" style="overflow: auto; height: 100%">
+            <!-- <div id="rov_status_panel" class="span3 pull-right visible-desktop" style="overflow: auto; height: 100%">
               <div id="buttonPanel" class="controller well well-small"></div>
-          </div>
+          </div> -->
             </div>
           </div>
         </div>
@@ -96,31 +96,31 @@
         <!-- SETTINGS -->
         <div class="drop-in-right" id="settings">
           <div class="back-button"></div>
-            <h2>Settings</h2>
+            <h2>设置</h2>
             <div class="accordion" id="plugin-settings"></div>
           </div>
         </div>
 
         <div class="drop-in-right" id="diagnostic">
-            <div class="back-button"></div><h3>Diagnostics</h3>
+            <div class="back-button"></div><h3>诊断</h3>
             <div class="settings-block">
-                <h4>Pre-Flight Check</h4>
+                <h4>水上测试</h4>
             </div>
 	    <div class="settings-block">
-	      <h4>Calibration</h4>
-	      <a href="#" class="btn" id="callibrate_compass">Calibrate Compass</a>
-	      <a href="#" class="btn" id="zero_depth">Zero Depth</a>
+	      <h4>校准</h4>
+	      <a href="#" class="btn" id="callibrate_compass">校准指南针</a>
+	      <a href="#" class="btn" id="zero_depth">零深度校准</a>
 	    </div>
 
         </div>
         <div class="hidden" id="keyboardInstructions">
             <p>
-                Use the <i>Up</i>, <i>Down</i>, <i>Left</i>, <i>Right</i>, <i>Shift</i> and <i>Ctrl</i> keys to maneuver.
-                Use <i>1</i>-<i>5</i> to set power.
+                使用键盘的 <i>上</i>, <i>下</i>, <i>左</i>, <i>右</i>, <i>Shift</i> 和 <i>Ctrl</i> 键来操控.
+                使用 <i>1</i>-<i>5</i> 改变动力水平.
             </p>
-            <p>Use <i>Q</i>, <i>A</i>, <i>Z</i> to tilt servo.</p>
-            <p>Use <i>o</i>, <i>p</i> to increase brightness of lights.</p>
-		    <p>Use <i>l</i> to toggle callibration lasers.</p>
+            <p>使用 <i>Q</i>, <i>A</i>, <i>Z</i> 旋转摄像头.</p>
+            <p>使用 <i>o</i>, <i>p</i> 调整光束强度.</p>
+		    <p>使用 <i>l</i> 开关校准激光.</p>
         </div>
 
 
